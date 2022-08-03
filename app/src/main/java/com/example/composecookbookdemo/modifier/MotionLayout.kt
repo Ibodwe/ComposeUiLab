@@ -31,8 +31,6 @@ fun ButtonMotionExample() {
         )
     )
     Spacer(modifier = Modifier.height(16.dp))
-
-
     MotionLayout(
        ConstraintSet(
             """ {
@@ -107,7 +105,5 @@ fun ButtonMotionExample() {
         ) {
             Text(text = "Button3")
         }
-
-
     }
 }
