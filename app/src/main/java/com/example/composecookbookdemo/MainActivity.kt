@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.composecookbookdemo.list.ShimmerLayout
 import com.example.composecookbookdemo.modifier.MotionLayoutExample
 import com.example.composecookbookdemo.ui.theme.ComposeCookBookDemoTheme
 
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    MotionLayoutExample()
+                    ShimmerLayout()
                 }
             }
         }
